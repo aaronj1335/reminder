@@ -8,7 +8,7 @@ input = ARGV.length >= 1? ARGV[0] : ARGF.read
 reminder_text, date = input.split /[ ]{2}/
 
 props = {:name => reminder_text}
-props[:remind_me_date] = Chronic.parse(date) if date
+props[:remind_me_date] = Chronic.parse(date.sub("tm", "tomorrow")) if date
 
 app = Appscript.app "Reminders"
 app.activate
