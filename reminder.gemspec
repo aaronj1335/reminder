@@ -8,4 +8,5 @@ Gem::Specification.new do |s|
   s.email       = 'aaron.r.stacy@gmail.com'
   s.files       = ['bin/reminder']
   s.homepage    = 'https://github.com/aaronj1335/reminder'
+  s.executables << 'reminder'
 end
