@@ -9,4 +9,7 @@ Gem::Specification.new do |s|
   s.files       = ['bin/reminder']
   s.homepage    = 'https://github.com/aaronj1335/reminder'
   s.executables << 'reminder'
+
+  s.add_runtime_dependency 'chronic', '>= 0.7'
+  s.add_runtime_dependency 'rb-appscript', '>= 0.6'
 end
