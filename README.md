@@ -12,3 +12,5 @@ a little toy script that creates OS X reminders.
     # => same as above
 
 this can also be used as a Quicksilver.app action.
+
+... this is one of my first experiences with ruby stuff like gems... wish i was happier w/ how it turned out...
